@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: var(--ff-primary);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: var(--fw-black);
+}
+h2 {
+  font-size: 1.75rem;
+  font-weight: var(--fw-medium);
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: var(--fw-medium);
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: var(--fw-semibold);
+  font-family: var(--ff-secondary);
+}
+h5 {
+  font-size: 1rem;
+  font-weight: var(--fw-medium);
+}
+h6 {
+  font-size: 1rem;
+  font-weight: var(--fw-medium);
+}
