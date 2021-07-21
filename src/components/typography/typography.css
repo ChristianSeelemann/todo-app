@@ -1,11 +1,3 @@
-h1,
-h2,
-h3,
-h5,
-h6 {
-  font-family: var(--ff-primary);
-}
-
 h1 {
   font-size: 2rem;
   font-weight: var(--fw-black);
