@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@500;900&display=swap");
+
+:root {
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Montserrat", sans-serif;
+  --primary: #fe4775;
+  --primary: #161060;
+  --text-primary: #393939;
+  --text-secondary: #111;
+  --content-passive: #d4d4d4;
+  --fw-500: 500;
+  --ff-600: 600;
+  --ff-900: 900;
+}
 
 *,
 *::after,
