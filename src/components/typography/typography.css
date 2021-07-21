@@ -1,14 +1,14 @@
 h1 {
   font-size: 2rem;
-  font-weight: var(--fw-black);
+  font-weight: var(--fw-bold);
 }
 h2 {
   font-size: 1.75rem;
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-normal);
 }
 h3 {
   font-size: 1.5rem;
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-normal);
 }
 h4 {
   font-size: 1.25rem;
@@ -17,9 +17,9 @@ h4 {
 }
 h5 {
   font-size: 1rem;
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-normal);
 }
 h6 {
   font-size: 1rem;
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-normal);
 }

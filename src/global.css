@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;700&display=swap");
 
 :root {
   --ff-primary: "Roboto", sans-serif;
@@ -8,19 +8,15 @@
   --text-primary: #393939;
   --text-secondary: #111;
   --content-passive: #d4d4d4;
-  --fw-medium: 500;
-  --fw-semibold: 600;
-  --fw-black: 900;
+  --fw-normal: 400;
+  --fw-semibold: 500;
+  --fw-bold: 700;
 }
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
 }
 
 body {
