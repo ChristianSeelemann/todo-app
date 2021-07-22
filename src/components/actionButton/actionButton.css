@@ -1,0 +1,16 @@
+button {
+  all: unset;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--primary);
+  border-radius: 0.5rem 0 0 0;
+  border: 1.5rem solid var(--primary);
+  border-width: 1.8rem 2.3rem;
+}
+button svg {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  top: 0.2rem;
+}
