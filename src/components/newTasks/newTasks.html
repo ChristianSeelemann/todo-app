@@ -1,14 +1,25 @@
-<form>
-  <label for="entertask">Description</label>
-  <input type="text" name="entertask" id="entertask" />
-  <fieldset>
-    <legend>When</legend>
-    <label for="today">Today</label>
-    <input type="radio" name="today" id="today" />
-    <label for="tomorrow">Tomorrow</label>
-    <input type="radio" name="tomorrow" id="tomorrow" />
-    <label for="selectdate">Select Date</label>
-    <input type="radio" name="selectdate" id="selectdate" />
-  </fieldset>
-  <input type="submit" value="Add Task" />
-</form>
+<div class="wrapper_out">
+  <form>
+    <div class="wrapper">
+      <label for="entertask">Description</label>
+      <input
+        type="text"
+        name="entertask"
+        id="entertask"
+        placeholder="Enter Task"
+      />
+      <fieldset>
+        <legend>When</legend>
+        <div class="fieldset-wrapper">
+          <input type="radio" name="dateselect" id="today" checked="true" />
+          <label for="today">Today</label>
+          <input type="radio" name="dateselect" id="tomorrow" />
+          <label for="tomorrow">Tomorrow</label>
+          <input type="radio" name="dateselect" id="selectdate" />
+          <label for="selectdate">Select Date</label>
+        </div>
+      </fieldset>
+    </div>
+    <input type="submit" value="Add Task" />
+  </form>
+</div>
