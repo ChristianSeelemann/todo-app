@@ -4,7 +4,7 @@ button {
   bottom: 0;
   right: 0;
   background-color: var(--primary);
-  border-radius: 0.5rem 0 0 0;
+  border-radius: 0.75rem 0 0 0;
   border: 1.8rem solid var(--primary);
   border-width: 1.6rem 2.2rem;
 }
