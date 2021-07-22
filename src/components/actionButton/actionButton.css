@@ -5,8 +5,8 @@ button {
   right: 0;
   background-color: var(--primary);
   border-radius: 0.5rem 0 0 0;
-  border: 1.5rem solid var(--primary);
-  border-width: 1.8rem 2.3rem;
+  border: 1.8rem solid var(--primary);
+  border-width: 1.6rem 2.2rem;
 }
 button svg {
   height: 2.5rem;
