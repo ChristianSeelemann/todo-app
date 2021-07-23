@@ -1,6 +1,6 @@
 import "./addTaskPage.css";
-import addTaskPage from "./addTaskPage.html";
+import addTasksPage from "./addTaskPage.html";
 
 export default { title: "Pages/AddTaskPage" };
 
-export const addTaskPag = () => addTaskPage;
+export const addTaskPage = () => addTasksPage;
