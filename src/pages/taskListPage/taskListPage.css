@@ -1,0 +1,35 @@
+.taskListPage {
+  height: 100vh;
+}
+
+.taskListPage .wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.taskListPage img.burger {
+  margin: 4.5rem 1.5rem 0.5rem 1.5rem;
+  width: 2rem;
+}
+
+.taskListPage section.headline {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.75rem 0 1.5rem;
+}
+
+.taskListPage section.taskList-wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.taskListPage section.taskList-wrapper form .entry {
+  width: 5.5rem;
+}
+
+.taskListPage section.taskList-wrapper section.list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

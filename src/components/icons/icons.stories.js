@@ -1,6 +1,4 @@
-import "./hamburger.css";
 import hamburger from "./hamburger.html";
-import "./notification.css";
 import notification from "./notification.html";
 
 export default {

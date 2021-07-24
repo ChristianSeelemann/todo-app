@@ -1,18 +1,32 @@
-.tasklist {
+.taskList {
   background-color: #f7f7f7;
-  padding: 2rem 0;
+  width: 100%;
+  padding: 2.5rem 0;
+  border-radius: 10px 0 0 0;
 }
-h3 {
+
+.taskList form {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskList form input[type="checkbox"] {
+  display: none;
+}
+
+.taskList form label {
   color: #111;
-  padding: 0.3rem 1.2rem;
+  padding: 1.5rem 2rem;
   cursor: pointer;
   position: relative;
+  font-size: 1.3rem;
+  font-weight: var(--fw-thin);
+  letter-spacing: 0.3px;
 }
-h3.finished::after {
-  width: 100%;
-  content: "";
-  position: absolute;
-  top: calc(50% - 0.25rem);
-  left: 0;
-  border-bottom: 0.2rem solid var(--primary);
+
+.taskList form input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  text-decoration-color: var(--primary);
+  text-decoration-style: wavy;
+  color: #686868;
 }
