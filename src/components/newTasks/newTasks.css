@@ -3,20 +3,20 @@
   padding-top: 2rem;
 }
 
-form {
+form.newTasksForm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
 
-form .wrapper {
+form.newTasksForm .wrapper {
   margin: 0 0 3rem 1.5rem;
   display: flex;
   flex-direction: column;
 }
 
-fieldset {
+form.newTasksForm fieldset {
   margin: 5rem 0;
   border: none;
   padding: 0;
@@ -27,9 +27,10 @@ fieldset {
   display: flex;
   padding: 0 1.25rem;
   justify-content: space-around;
+  border-radius: 10px 0 0 10px;
 }
 
-input[type="submit"] {
+form.newTasksForm input[type="submit"] {
   background-color: var(--primary);
   color: #fff;
   padding: 1.6em 1em;
@@ -41,12 +42,12 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="text"] {
+form.newTasksForm input[type="text"] {
   border: none;
 }
 
-legend,
-label[for="entertask"] {
+form.newTasksForm legend,
+form.newTasksForm label[for="entertask"] {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -67,11 +68,11 @@ label[for="entertask"] {
   color: var(--primary);
 }
 
-legend {
+form.newTasksForm legend {
   margin-bottom: 1rem;
 }
 
-input[id^="entertask"] {
+form.newTasksForm input[id^="entertask"] {
   color: #d8d8d8;
   letter-spacing: 0.7px;
   font-size: 3rem;
@@ -80,11 +81,11 @@ input[id^="entertask"] {
   border-bottom: 0.25rem solid #d8d8d8;
 }
 
-input[id^="entertask"]::placeholder {
+form.newTasksForm input[id^="entertask"]::placeholder {
   color: #d8d8d8;
 }
 
-input[id^="entertask"]:focus {
+form.newTasksForm input[id^="entertask"]:focus {
   border-bottom: 0.25rem solid #393939;
   color: #393939;
 }

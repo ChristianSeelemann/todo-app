@@ -1,12 +1,16 @@
 button {
+  position: fixed;
   display: flex;
-  position: absolute;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
   right: 0;
   background-color: var(--primary);
   border-radius: 0.75rem 0 0 0;
-  border: 1.8rem solid var(--primary);
-  border-width: 1.6rem 2.2rem;
+  border: none;
+  height: 6rem;
+  width: 7rem;
+  cursor: pointer;
 }
 button svg {
   height: 2.5rem;
