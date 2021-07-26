@@ -1,10 +1,4 @@
-.taskListPage {
-  height: 100vh;
-}
-
 .taskListPage .wrapper {
-  display: flex;
-  flex-direction: column;
   height: 100%;
 }
 
@@ -22,14 +16,4 @@
 .taskListPage section.taskList-wrapper {
   display: flex;
   height: 100%;
-}
-
-.taskListPage section.taskList-wrapper form .entry {
-  width: 5.5rem;
-}
-
-.taskListPage section.taskList-wrapper section.list {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
 }

@@ -10,30 +10,59 @@
       <nav class="navigation">
         <ul>
           <a href="#"><li>Today</li></a>
-          <a href="#"><li>Tomorrow</li></a>
+          <a href="#" class="active"><li>Tomorrow</li></a>
           <a href="#"><li>This Week</li></a>
         </ul>
       </nav>
 
       <section class="taskList">
-        <form>
-          <input type="checkbox" name="entry_1" id="entry_1" class="entry" />
-          <label for="entry_1">Book appointment with Laura</label>
-          <input
-            type="checkbox"
-            name="entry_2"
-            id="entry_2"
-            checked="true"
-            class="entry"
-          />
-          <label for="entry_2">Upload today shot on dribble</label>
-          <input type="checkbox" name="entry_3" id="entry_3" class="entry" />
-          <label for="entry_3">Complete the Elephant Illustration</label>
-          <input type="checkbox" name="entry_4" id="entry_4" class="entry" />
-          <label for="entry_4">Biy cake for Cair´s Birthday</label>
-          <input type="checkbox" name="entry_5" id="entry_5" class="entry" />
-          <label for="entry_5">Attend UX Conference with Jared</label>
-        </form>
+        <section class="taskList">
+          <label class="taskItem">
+            <input
+              class="taskItem__checkbox"
+              type="checkbox"
+              name="tasks"
+            /><span class="taskItem__labelText"
+              >Book appointment with Jared</span
+            >
+          </label>
+          <label class="taskItem">
+            <input
+              class="taskItem__checkbox"
+              type="checkbox"
+              name="tasks"
+            /><span class="taskItem__labelText"
+              >Upload todays screenshot to Dribble</span
+            >
+          </label>
+          <label class="taskItem">
+            <input
+              class="taskItem__checkbox"
+              type="checkbox"
+              name="tasks"
+            /><span class="taskItem__labelText"
+              >Complete the Elephant Illustration</span
+            >
+          </label>
+          <label class="taskItem">
+            <input
+              class="taskItem__checkbox"
+              type="checkbox"
+              name="tasks"
+            /><span class="taskItem__labelText"
+              >Buy cake for Clair´s Birthday</span
+            >
+          </label>
+          <label class="taskItem">
+            <input
+              class="taskItem__checkbox"
+              type="checkbox"
+              name="tasks"
+            /><span class="taskItem__labelText"
+              >Attend UX Conference with Jared</span
+            >
+          </label>
+        </section>
       </section>
     </section>
   </div>

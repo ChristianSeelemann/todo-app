@@ -1,5 +1,10 @@
 nav.navigation a {
   text-decoration: none;
+  color: #d4d4d4;
+}
+
+nav.navigation a.active {
+  color: var(--primary) !important;
 }
 
 nav.navigation ul {
@@ -13,7 +18,6 @@ nav.navigation ul {
 nav.navigation li {
   padding: 2.5rem;
   text-transform: uppercase;
-  color: #d4d4d4;
   font-weight: var(--fw-thin);
   letter-spacing: 3px;
   cursor: pointer;

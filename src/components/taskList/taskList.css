@@ -1,32 +1,7 @@
 .taskList {
-  background-color: #f7f7f7;
+  overflow: auto;
+  background-color: var(--content-passive);
   width: 100%;
-  padding: 2.5rem 0;
-  border-radius: 10px 0 0 0;
-}
-
-.taskList form {
-  display: flex;
-  flex-direction: column;
-}
-
-.taskList form input[type="checkbox"] {
-  display: none;
-}
-
-.taskList form label {
-  color: #111;
-  padding: 1.5rem 2rem;
-  cursor: pointer;
-  position: relative;
-  font-size: 1.3rem;
-  font-weight: var(--fw-thin);
-  letter-spacing: 0.3px;
-}
-
-.taskList form input[type="checkbox"]:checked + label {
-  text-decoration: line-through;
-  text-decoration-color: var(--primary);
-  text-decoration-style: wavy;
-  color: #686868;
+  padding: 2rem 0;
+  border-radius: 0.75rem 0 0 0;
 }

@@ -7,7 +7,7 @@
   --secondary: #161060;
   --text-primary: #393939;
   --text-secondary: #111;
-  --content-passive: #d4d4d4;
+  --content-passive: #f5f5f5;
   --fw-thin: 300;
   --fw-normal: 400;
   --fw-semibold: 500;
@@ -23,6 +23,7 @@
 body {
   font-family: var(--ff-primary);
   margin: 0;
+  color: var(--text-secondary);
 }
 
 input,
