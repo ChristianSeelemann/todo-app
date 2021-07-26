@@ -20,7 +20,3 @@ nav.navigation li {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
 }
-
-nav.navigation li:hover {
-  color: var(--primary);
-}
