@@ -122,7 +122,7 @@ h6 {
   grid-column: 2 / 3;
   grid-row: span 2;
   overflow: auto;
-  padding: 3em 1.5em 0 1.5em;
+  padding: 2.5em 1.5em 0 1.5em;
   background-color: var(--clr-content-passive);
   border-radius: 0.5em 0 0 0;
 }
