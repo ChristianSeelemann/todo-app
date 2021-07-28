@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Create new Task</title>
+  </head>
+  <body>
+    <div class="addTaskPage__wrapper">
+      <h1>Add new</h1>
+
+      <form class="newTasksForm">
+        <div class="wrapper">
+          <label for="entertask">Description</label>
+          <input
+            type="text"
+            name="entertask"
+            id="entertask"
+            placeholder="Enter Task"
+          />
+          <fieldset>
+            <legend>When</legend>
+            <div class="fieldset-wrapper">
+              <input type="radio" name="dateselect" id="today" checked="true" />
+              <label for="today">Today</label>
+              <input type="radio" name="dateselect" id="tomorrow" />
+              <label for="tomorrow">Tomorrow</label>
+              <input type="radio" name="dateselect" id="selectdate" />
+              <label for="selectdate">Select Date</label>
+            </div>
+          </fieldset>
+        </div>
+        <input type="submit" value="Add Task" />
+      </form>
+    </div>
+  </body>
+</html>
