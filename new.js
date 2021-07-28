@@ -3,13 +3,11 @@ const form = document.querySelector(".newTasksForm");
 form.onsubmit = function (event) {
   event.preventDefault();
 
-  //Datum abrufen
-  const checkedDate = document.querySelector(".newTaskForm__radio:checked")
-    .value;
+  const taskObject = { name: "", date: "", isDone: false };
 
-  //Text abrufen
-  const taskInput = document.querySelector(".newTaskForm__textInput").value;
+  taskObject.date = document.querySelector(".newTaskForm__radio:checked").value;
 
-  //Daten ausgeben
-  console.log(checkedDate, taskInput);
+  taskObject.name = document.querySelector(".newTaskForm__textInput").value;
+
+  console.log(`Date: ${taskObject.date} and Task: ${taskObject.name}`);
 };
