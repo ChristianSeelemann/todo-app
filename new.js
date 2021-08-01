@@ -1,13 +1,23 @@
+import {
+  stringifyJSONToLocalStorage,
+  parseJSONFromLocalStorage,
+} from "./utils/localStorage.js";
+
 const form = document.querySelector(".newTasksForm");
 
 form.onsubmit = function (event) {
   event.preventDefault();
 
-  const taskObject = { name: "", date: "", isDone: false };
+  const newData = { name: "", date: "", isDone: false };
 
-  taskObject.date = document.querySelector(".newTaskForm__radio:checked").value;
+  newData.date = document.querySelector(".newTaskForm__radio:checked").value;
 
-  taskObject.name = document.querySelector(".newTaskForm__textInput").value;
+  newData.name = document.querySelector(".newTaskForm__textInput").value;
 
-  console.log(`Date: ${taskObject.date} and Task: ${taskObject.name}`);
+  const oldData = parseJSONFromLocalStorage("tasks", []);
+  const taskArray = [...oldData, newData];
+
+  stringifyJSONToLocalStorage("tasks", taskArray);
+
+  location.href = "/";
 };

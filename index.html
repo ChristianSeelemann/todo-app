@@ -20,17 +20,21 @@
       </div>
 
       <section class="dateSelector">
-        <a href="#" class="taskNavLink">Today</a>
-        <a href="#" class="taskNavLink">Tomorrow</a>
-        <a href="#" class="taskNavLink">This Week</a>
+        <input type="radio" name="filter" id="today" />
+        <label class="taskNavLink" for="today">Today</label>
+        <input type="radio" name="filter" id="tomorrow" />
+        <label class="taskNavLink" for="tomorrow">Tomorrow</label>
+        <input type="radio" name="filter" id="selectDate" />
+        <label class="taskNavLink" for="selectDate">Select Date</label>
       </section>
       <section class="taskList"></section>
     </main>
 
-    <button class="actionButton" aria-label="Add new task">
-      <img src="../../assets/plusicon.svg" alt="Add Icon" />
-    </button>
+    <a href="/new.html"
+      ><button class="actionButton" aria-label="Add new task">
+        <img src="../../assets/plusicon.svg" alt="Add Icon" /></button
+    ></a>
 
-    <script src="index.js" defer></script>
+    <script type="module" src="index.js" defer></script>
   </body>
 </html>
