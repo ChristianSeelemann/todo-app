@@ -18,22 +18,42 @@
             type="text"
             name="entertask"
             id="entertask"
+            class="newTaskForm__textInput"
             placeholder="Enter Task"
           />
           <fieldset>
             <legend>When</legend>
             <div class="fieldset-wrapper">
-              <input type="radio" name="dateselect" id="today" checked="true" />
+              <input
+                type="radio"
+                name="dateselect"
+                id="today"
+                value="today"
+                class="newTaskForm__radio"
+              />
               <label for="today">Today</label>
-              <input type="radio" name="dateselect" id="tomorrow" />
+              <input
+                type="radio"
+                name="dateselect"
+                id="tomorrow"
+                value="tomorrow"
+                class="newTaskForm__radio"
+              />
               <label for="tomorrow">Tomorrow</label>
-              <input type="radio" name="dateselect" id="selectdate" />
+              <input
+                type="radio"
+                name="dateselect"
+                id="selectdate"
+                value="selectDate"
+                class="newTaskForm__radio"
+              />
               <label for="selectdate">Select Date</label>
             </div>
           </fieldset>
         </div>
-        <input type="submit" value="Add Task" />
+        <input type="submit" value="Add Task" class="newTasksForm__submit" />
       </form>
     </div>
+    <script type="module" src="new.js" defer></script>
   </body>
 </html>

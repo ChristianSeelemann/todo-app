@@ -97,6 +97,14 @@ h6 {
   margin: 0.5em 0;
 }
 
+.dateSelector input {
+  display: none;
+}
+
+.dateSelector input:checked + label {
+  color: var(--clr-primary);
+}
+
 .iconButton {
   border: none;
   background-color: transparent;
